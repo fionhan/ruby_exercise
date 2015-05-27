@@ -14,3 +14,9 @@ module Week
     "I am instance_method in module Week"
   end
 end
+
+module ExtendModuleTest
+  def instance_method
+    puts "I am an instance method in ExtendModuleTest module，when extended,I am a class method in that class"
+  end
+end
