@@ -11,7 +11,7 @@ puts "Guess my number (1-10) >"
 
 win=false
 puts "Guess my number:"
-5.times do
+5.times do #can be replace with for i in 0..5  or (0..5).each do |i|
   guess=gets.to_i
   if guess==number
     win=true
